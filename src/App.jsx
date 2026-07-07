@@ -161,7 +161,7 @@ const App = () => {
                 <button onClick={() => scrollToSection('contact')} className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-all hover:shadow-lg hover:shadow-blue-500/25 text-sm">
                   Hire Me
                 </button>
-                <button onClick={() => window.open('/Muneeb CV.pdf', '_blank')} className="px-6 py-2.5 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all text-sm">
+                <button onClick={() => window.open('public/MuneebCV.pdf', '_blank')} className="px-6 py-2.5 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full transition-all text-sm">
                   Download CV
                 </button>
               </div>
